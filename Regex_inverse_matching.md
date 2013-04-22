@@ -14,15 +14,13 @@ Code
 ----
  1. find line of zero or more whole characters.
 
-~~~
- ^.*$
-~~~
+        ^.*
+    
 
  1. now add negative lookahead to each `.`
 
-~~~
-^((?!item).)*$
-~~~
+        ^((?!item).)*$
+
 
 Consulted
 ---------
